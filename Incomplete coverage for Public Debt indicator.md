@@ -1,7 +1,7 @@
-### The Problem
+### The problem
 Currently, our model relies on the `GC.DOD.TOTL.GD.ZS` indicator (Central Government Debt, % of GDP) to calculate the Fiscal pillar score. However, this specific indicator suffers from incomplete global coverage, returning missing values for several major countries in our default panel. This forces the script to impute the panel average, which distorts the final fiscal ranking.
 
-### Proposed Solution
+### The solution
 To make the Fiscal pillar more accurate and reliable, we need to replace the current debt indicator. There are two potential approaches to implement:
 
 1. **Calculate the ratio manually:** 
