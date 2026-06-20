@@ -1,126 +1,282 @@
-# Notes d'analyse risque pays — générées automatiquement
+# Notes d'analyse risque pays - Modele elargi (15 indicateurs)
 
-*Panel de 12 pays, source des données : API Banque Mondiale (live).*
-
----
-
-## Inde — Risque très faible
-
-**Score composite : +0.95** (rang 1/12 sur le panel étudié)
-
-Inde présente, sur la base des indicateurs retenus, une dynamique de croissance favorable (9.2% de croissance du PIB). À l'inverse, le principal point de vigilance porte sur une position extérieure fragile (solde courant de -0.9% du PIB). Le profil de risque global ressort comme favorable au regard du panel de comparaison.
-
-*Indicateurs : croissance du PIB 9.2% | inflation 5.6% | dette publique 47% du PIB | compte courant -0.9% du PIB.*
+*12 pays analyses — Donnees live BM + ND-GAIN/INFORM embarques*
 
 ---
 
-## Vietnam — Risque très faible
+## Allemagne - Risque faible
 
-**Score composite : +0.83** (rang 2/12 sur le panel étudié)
+**Score composite : +0.54** (rang 1/12 sur le panel)
 
-Vietnam présente, sur la base des indicateurs retenus, une position extérieure solide (solde courant de +5.9% du PIB). À l'inverse, le principal point de vigilance porte sur un endettement public élevé (72% du PIB). Le profil de risque global ressort comme favorable au regard du panel de comparaison.
+**Point fort :** un systeme de sante solide (4.5 medecins/1000 hab., sante 11.7% PIB)
 
-*Indicateurs : croissance du PIB 5.1% | inflation 3.3% | dette publique 72% du PIB | compte courant +5.9% du PIB.*
+**Point de vigilance :** une dynamique economique fragile (-0.9% de croissance, chomage a 3.1%)
 
----
+Profil global favorable : atouts macro et structurels limitant la vulnerabilite systemique.
 
-## Indonesie — Risque faible
+| Pilier | Score |
+|---|---|
+| Economique (croissance + emploi) | -0.42 |
+| Fiscal (solde + reserves) | +0.29 |
+| Externe / Monetaire | +1.20 |
+| Social & Inegalites | +0.70 |
+| Climat & Energie | +0.35 |
+| Sante & Cap. humain | +1.39 |
 
-**Score composite : +0.33** (rang 3/12 sur le panel étudié)
-
-Indonesie présente, sur la base des indicateurs retenus, une dynamique de croissance favorable (5.0% de croissance du PIB). À l'inverse, le principal point de vigilance porte sur un endettement public élevé (72% du PIB). Le profil de risque global ressort comme favorable au regard du panel de comparaison.
-
-*Indicateurs : croissance du PIB 5.0% | inflation 3.7% | dette publique 72% du PIB | compte courant -0.1% du PIB.*
-
----
-
-## Allemagne — Risque faible
-
-**Score composite : +0.25** (rang 4/12 sur le panel étudié)
-
-Allemagne présente, sur la base des indicateurs retenus, une position extérieure solide (solde courant de +5.5% du PIB). À l'inverse, le principal point de vigilance porte sur une croissance économique atone (-0.9%). Le profil de risque global ressort comme favorable au regard du panel de comparaison.
-
-*Indicateurs : croissance du PIB -0.9% | inflation 5.9% | dette publique 72% du PIB | compte courant +5.5% du PIB.*
+*Sources : API Banque Mondiale (live) + ND-GAIN 2022 + INFORM 2023. Modele illustratif - pas une notation souveraine officielle.*
 
 ---
 
-## Turquie — Risque faible
+## Inde - Risque faible
 
-**Score composite : +0.21** (rang 5/12 sur le panel étudié)
+**Score composite : +0.34** (rang 2/12 sur le panel)
 
-Turquie présente, sur la base des indicateurs retenus, un niveau d'endettement public contenu (33% du PIB). À l'inverse, le principal point de vigilance porte sur une position extérieure fragile (solde courant de -3.6% du PIB). Le profil de risque global ressort comme favorable au regard du panel de comparaison.
+**Point fort :** une dynamique economique solide (9.2% de croissance, chomage a 4.2%)
 
-*Indicateurs : croissance du PIB 5.0% | inflation 53.9% | dette publique 33% du PIB | compte courant -3.6% du PIB.*
+**Point de vigilance :** un systeme de sante sous-dimensionne (0.7 medecins/1000 hab., INFORM 5.1/10)
 
----
+Profil global favorable : atouts macro et structurels limitant la vulnerabilite systemique.
 
-## Nigeria — Risque modéré
+| Pilier | Score |
+|---|---|
+| Economique (croissance + emploi) | +1.28 |
+| Fiscal (solde + reserves) | +0.85 |
+| Externe / Monetaire | +0.17 |
+| Social & Inegalites | +0.48 |
+| Climat & Energie | -0.26 |
+| Sante & Cap. humain | -0.81 |
 
-**Score composite : +0.15** (rang 6/12 sur le panel étudié)
-
-Nigeria présente, sur la base des indicateurs retenus, une position extérieure solide (solde courant de +1.3% du PIB). À l'inverse, le principal point de vigilance porte sur une inflation élevée (24.7%). Le profil de risque global se situe dans une zone intermédiaire, sans signal de stress marqué ni de marge de sécurité confortable.
-
-*Indicateurs : croissance du PIB 3.3% | inflation 24.7% | dette publique 72% du PIB | compte courant +1.3% du PIB.*
-
----
-
-## France — Risque modéré
-
-**Score composite : -0.07** (rang 7/12 sur le panel étudié)
-
-France présente, sur la base des indicateurs retenus, une inflation maîtrisée (4.9%). À l'inverse, le principal point de vigilance porte sur une croissance économique atone (1.4%). Le profil de risque global se situe dans une zone intermédiaire, sans signal de stress marqué ni de marge de sécurité confortable.
-
-*Indicateurs : croissance du PIB 1.4% | inflation 4.9% | dette publique 72% du PIB | compte courant -1.0% du PIB.*
+*Sources : API Banque Mondiale (live) + ND-GAIN 2022 + INFORM 2023. Modele illustratif - pas une notation souveraine officielle.*
 
 ---
 
-## Bresil — Risque modéré
+## France - Risque faible
 
-**Score composite : -0.07** (rang 8/12 sur le panel étudié)
+**Score composite : +0.30** (rang 3/12 sur le panel)
 
-Bresil présente, sur la base des indicateurs retenus, une inflation maîtrisée (4.6%). À l'inverse, le principal point de vigilance porte sur un endettement public élevé (83% du PIB). Le profil de risque global se situe dans une zone intermédiaire, sans signal de stress marqué ni de marge de sécurité confortable.
+**Point fort :** un systeme de sante solide (3.3 medecins/1000 hab., sante 11.5% PIB)
 
-*Indicateurs : croissance du PIB 3.2% | inflation 4.6% | dette publique 83% du PIB | compte courant -1.2% du PIB.*
+**Point de vigilance :** des fragilites fiscales (solde -5.0% du PIB, reserves 2.1 mois)
 
----
+Profil global favorable : atouts macro et structurels limitant la vulnerabilite systemique.
 
-## Egypte — Risque élevé
+| Pilier | Score |
+|---|---|
+| Economique (croissance + emploi) | -0.29 |
+| Fiscal (solde + reserves) | -0.39 |
+| Externe / Monetaire | +0.16 |
+| Social & Inegalites | +0.88 |
+| Climat & Energie | +0.40 |
+| Sante & Cap. humain | +1.03 |
 
-**Score composite : -0.23** (rang 9/12 sur le panel étudié)
-
-Egypte présente, sur la base des indicateurs retenus, une dynamique de croissance favorable (3.8% de croissance du PIB). À l'inverse, le principal point de vigilance porte sur une position extérieure fragile (solde courant de -3.2% du PIB). Le profil de risque global ressort comme dégradé au regard du panel de comparaison, et justifie un suivi renforcé.
-
-*Indicateurs : croissance du PIB 3.8% | inflation 33.9% | dette publique 72% du PIB | compte courant -3.2% du PIB.*
-
----
-
-## Afrique du Sud — Risque élevé
-
-**Score composite : -0.23** (rang 10/12 sur le panel étudié)
-
-Afrique du Sud présente, sur la base des indicateurs retenus, une inflation maîtrisée (6.1%). À l'inverse, le principal point de vigilance porte sur une croissance économique atone (0.8%). Le profil de risque global ressort comme dégradé au regard du panel de comparaison, et justifie un suivi renforcé.
-
-*Indicateurs : croissance du PIB 0.8% | inflation 6.1% | dette publique 79% du PIB | compte courant -1.1% du PIB.*
+*Sources : API Banque Mondiale (live) + ND-GAIN 2022 + INFORM 2023. Modele illustratif - pas une notation souveraine officielle.*
 
 ---
 
-## Etats-Unis — Risque élevé
+## Vietnam - Risque faible
 
-**Score composite : -0.72** (rang 11/12 sur le panel étudié)
+**Score composite : +0.26** (rang 4/12 sur le panel)
 
-Etats-Unis présente, sur la base des indicateurs retenus, une inflation maîtrisée (4.1%). À l'inverse, le principal point de vigilance porte sur un endettement public élevé (117% du PIB). Le profil de risque global ressort comme dégradé au regard du panel de comparaison, et justifie un suivi renforcé.
+**Point fort :** une position exterieure favorable (CC +5.9% du PIB, inflation 3.3%)
 
-*Indicateurs : croissance du PIB 2.9% | inflation 4.1% | dette publique 117% du PIB | compte courant -3.4% du PIB.*
+**Point de vigilance :** un systeme de sante sous-dimensionne (1.1 medecins/1000 hab., INFORM 4.3/10)
+
+Profil global favorable : atouts macro et structurels limitant la vulnerabilite systemique.
+
+| Pilier | Score |
+|---|---|
+| Economique (croissance + emploi) | +0.71 |
+| Fiscal (solde + reserves) | -0.30 |
+| Externe / Monetaire | +1.31 |
+| Social & Inegalites | +0.28 |
+| Climat & Energie | -0.13 |
+| Sante & Cap. humain | -0.46 |
+
+*Sources : API Banque Mondiale (live) + ND-GAIN 2022 + INFORM 2023. Modele illustratif - pas une notation souveraine officielle.*
 
 ---
 
-## Argentine — Risque très élevé
+## Etats-Unis - Risque modere
 
-**Score composite : -1.41** (rang 12/12 sur le panel étudié)
+**Score composite : +0.19** (rang 5/12 sur le panel)
 
-Argentine présente, sur la base des indicateurs retenus, un niveau d'endettement public contenu (72% du PIB). À l'inverse, le principal point de vigilance porte sur une inflation élevée (133.5%). Le profil de risque global ressort comme dégradé au regard du panel de comparaison, et justifie un suivi renforcé.
+**Point fort :** un systeme de sante solide (3.7 medecins/1000 hab., sante 16.7% PIB)
 
-*Indicateurs : croissance du PIB -1.9% | inflation 133.5% | dette publique 72% du PIB | compte courant -3.2% du PIB.*
+**Point de vigilance :** des fragilites fiscales (solde -7.4% du PIB, reserves 1.8 mois)
+
+Profil intermediaire : atouts sur certains piliers compenses par des fragilites sur d'autres.
+
+| Pilier | Score |
+|---|---|
+| Economique (croissance + emploi) | +0.20 |
+| Fiscal (solde + reserves) | -1.02 |
+| Externe / Monetaire | -0.21 |
+| Social & Inegalites | +0.24 |
+| Climat & Energie | +0.45 |
+| Sante & Cap. humain | +1.46 |
+
+*Sources : API Banque Mondiale (live) + ND-GAIN 2022 + INFORM 2023. Modele illustratif - pas une notation souveraine officielle.*
+
+---
+
+## Indonesie - Risque modere
+
+**Score composite : +0.15** (rang 6/12 sur le panel)
+
+**Point fort :** une exposition climatique maitrisee (vulnerabilite ND-GAIN 0.49/1)
+
+**Point de vigilance :** un systeme de sante sous-dimensionne (0.5 medecins/1000 hab., INFORM 5.6/10)
+
+Profil intermediaire : atouts sur certains piliers compenses par des fragilites sur d'autres.
+
+| Pilier | Score |
+|---|---|
+| Economique (croissance + emploi) | +0.61 |
+| Fiscal (solde + reserves) | +0.28 |
+| Externe / Monetaire | +0.32 |
+| Social & Inegalites | -0.02 |
+| Climat & Energie | +0.65 |
+| Sante & Cap. humain | -1.02 |
+
+*Sources : API Banque Mondiale (live) + ND-GAIN 2022 + INFORM 2023. Modele illustratif - pas une notation souveraine officielle.*
+
+---
+
+## Bresil - Risque modere
+
+**Score composite : +0.11** (rang 7/12 sur le panel)
+
+**Point fort :** des fondamentaux fiscaux sains (solde -6.9% du PIB, reserves 9.4 mois)
+
+**Point de vigilance :** des inegalites structurelles elevees (Gini 52, pauvrete extreme 3.8%)
+
+Profil intermediaire : atouts sur certains piliers compenses par des fragilites sur d'autres.
+
+| Pilier | Score |
+|---|---|
+| Economique (croissance + emploi) | -0.01 |
+| Fiscal (solde + reserves) | +0.74 |
+| Externe / Monetaire | +0.13 |
+| Social & Inegalites | -0.34 |
+| Climat & Energie | +0.26 |
+| Sante & Cap. humain | +0.10 |
+
+*Sources : API Banque Mondiale (live) + ND-GAIN 2022 + INFORM 2023. Modele illustratif - pas une notation souveraine officielle.*
+
+---
+
+## Turquie - Risque modere
+
+**Score composite : -0.10** (rang 8/12 sur le panel)
+
+**Point fort :** des fondamentaux fiscaux sains (solde -4.3% du PIB, reserves 4.2 mois)
+
+**Point de vigilance :** des tensions externes significatives (CC -3.6% du PIB, inflation 53.9%)
+
+Profil intermediaire : atouts sur certains piliers compenses par des fragilites sur d'autres.
+
+| Pilier | Score |
+|---|---|
+| Economique (croissance + emploi) | +0.21 |
+| Fiscal (solde + reserves) | +0.23 |
+| Externe / Monetaire | -0.93 |
+| Social & Inegalites | +0.14 |
+| Climat & Energie | -0.22 |
+| Sante & Cap. humain | -0.23 |
+
+*Sources : API Banque Mondiale (live) + ND-GAIN 2022 + INFORM 2023. Modele illustratif - pas une notation souveraine officielle.*
+
+---
+
+## Argentine - Risque modere
+
+**Score composite : -0.24** (rang 9/12 sur le panel)
+
+**Point fort :** un systeme de sante solide (5.1 medecins/1000 hab., sante 10.3% PIB)
+
+**Point de vigilance :** des tensions externes significatives (CC -3.2% du PIB, inflation 133.5%)
+
+Profil intermediaire : atouts sur certains piliers compenses par des fragilites sur d'autres.
+
+| Pilier | Score |
+|---|---|
+| Economique (croissance + emploi) | -0.79 |
+| Fiscal (solde + reserves) | +0.03 |
+| Externe / Monetaire | -1.95 |
+| Social & Inegalites | +0.17 |
+| Climat & Energie | +0.24 |
+| Sante & Cap. humain | +0.87 |
+
+*Sources : API Banque Mondiale (live) + ND-GAIN 2022 + INFORM 2023. Modele illustratif - pas une notation souveraine officielle.*
+
+---
+
+## Egypte - Risque eleve
+
+**Score composite : -0.31** (rang 10/12 sur le panel)
+
+**Point fort :** une cohesion sociale relativement preservee (Gini 28, esp. vie 71.6 ans)
+
+**Point de vigilance :** des fragilites fiscales (solde -10.7% du PIB, reserves 3.9 mois)
+
+Profil degrade sur plusieurs dimensions. Convergence de risques macro, sociaux et/ou climatiques justifiant un suivi renforce.
+
+| Pilier | Score |
+|---|---|
+| Economique (croissance + emploi) | +0.16 |
+| Fiscal (solde + reserves) | -1.37 |
+| Externe / Monetaire | -0.58 |
+| Social & Inegalites | +0.46 |
+| Climat & Energie | -0.28 |
+| Sante & Cap. humain | -0.66 |
+
+*Sources : API Banque Mondiale (live) + ND-GAIN 2022 + INFORM 2023. Modele illustratif - pas une notation souveraine officielle.*
+
+---
+
+## Nigeria - Risque eleve
+
+**Score composite : -0.58** (rang 11/12 sur le panel)
+
+**Point fort :** une dynamique economique solide (3.3% de croissance, chomage a 3.1%)
+
+**Point de vigilance :** des inegalites structurelles elevees (Gini 34, pauvrete extreme 41.8%)
+
+Profil degrade sur plusieurs dimensions. Convergence de risques macro, sociaux et/ou climatiques justifiant un suivi renforce.
+
+| Pilier | Score |
+|---|---|
+| Economique (croissance + emploi) | +0.32 |
+| Fiscal (solde + reserves) | +0.15 |
+| Externe / Monetaire | +0.27 |
+| Social & Inegalites | -1.72 |
+| Climat & Energie | -1.13 |
+| Sante & Cap. humain | -1.28 |
+
+*Sources : API Banque Mondiale (live) + ND-GAIN 2022 + INFORM 2023. Modele illustratif - pas une notation souveraine officielle.*
+
+---
+
+## Afrique du Sud - Risque eleve
+
+**Score composite : -0.67** (rang 12/12 sur le panel)
+
+**Point fort :** des fondamentaux fiscaux sains (solde -4.2% du PIB, reserves 5.3 mois)
+
+**Point de vigilance :** une dynamique economique fragile (0.8% de croissance, chomage a 32.1%)
+
+Profil degrade sur plusieurs dimensions. Convergence de risques macro, sociaux et/ou climatiques justifiant un suivi renforce.
+
+| Pilier | Score |
+|---|---|
+| Economique (croissance + emploi) | -1.99 |
+| Fiscal (solde + reserves) | +0.50 |
+| Externe / Monetaire | +0.13 |
+| Social & Inegalites | -1.28 |
+| Climat & Energie | -0.33 |
+| Sante & Cap. humain | -0.40 |
+
+*Sources : API Banque Mondiale (live) + ND-GAIN 2022 + INFORM 2023. Modele illustratif - pas une notation souveraine officielle.*
 
 ---
 

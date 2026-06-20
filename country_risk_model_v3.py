@@ -13,8 +13,8 @@ ARCHITECTURE DU MODÈLE — 6 PILIERS, 15 INDICATEURS :
     · Taux de chômage %            [API Banque Mondiale, SL.UEM.TOTL.ZS]
 
   Pilier 2 — FISCAL (poids 15%)
-    · Solde budgétaire % PIB       [API Banque Mondiale, GC.BAL.CASH.GD.ZS]
-    · Réserves de change (mois)    [API Banque Mondiale, FI.RES.TOTM.MO]
+    · Solde budgétaire % PIB       [API Banque Mondiale, GC.NLD.TOTL.GD.ZS]
+    · Réserves de change (mois)    [API Banque Mondiale, FI.RES.TOTL.MO]
 
   Pilier 3 — EXTERNE / MONÉTAIRE (poids 15%)
     · Compte courant % PIB         [API Banque Mondiale, BN.CAB.XOKA.GD.ZS]
@@ -77,8 +77,12 @@ WB_INDICATORS = {
     "PIB_croissance":     "NY.GDP.MKTP.KD.ZG",
     "Chomage":            "SL.UEM.TOTL.ZS",
     # Pilier Fiscal
-    "Solde_budgetaire":   "GC.BAL.CASH.GD.ZS",
-    "Reserves_mois":      "FI.RES.TOTM.MO",
+    # NB: GC.BAL.CASH.GD.ZS est quasi abandonne par la BM (plus de donnees
+    # recentes pour la plupart des pays) -> remplace par l'indicateur actif
+    # equivalent GC.NLD.TOTL.GD.ZS (solde budgetaire global, % PIB).
+    "Solde_budgetaire":   "GC.NLD.TOTL.GD.ZS",
+    # NB: "FI.RES.TOTM.MO" etait une coquille -> le vrai code est TOTL (pas TOTM).
+    "Reserves_mois":      "FI.RES.TOTL.MO",
     # Pilier Externe / Monétaire
     "CompteCourant_PIB":  "BN.CAB.XOKA.GD.ZS",
     "Inflation":          "FP.CPI.TOTL.ZG",
@@ -217,7 +221,18 @@ if nb_manquants > 0:
     for col, n in manquants_detail.items():
         print(f"   - {col} : {n} pays impute(s) par la moyenne du panel")
     for col in INDICATEURS_NUM:
-        df[col] = df[col].fillna(df[col].mean())
+        moyenne_col = df[col].mean()
+        if pd.isna(moyenne_col):
+            # Colonne entierement vide (ex: indicateur API en panne/retire) :
+            # impossible de calculer une moyenne -> on neutralise la colonne
+            # (z-score = 0, ni bonus ni malus) plutot que de laisser du NaN
+            # se propager jusqu'au score composite et au classement.
+            print(f"   ! ATTENTION : '{col}' est vide sur TOUT le panel "
+                  f"(indicateur API indisponible) -> colonne neutralisee (= 0), "
+                  f"a corriger/verifier le code indicateur correspondant.")
+            df[col] = 0.0
+        else:
+            df[col] = df[col].fillna(moyenne_col)
 
 print("\n" + "=" * 90)
 print("DONNEES BRUTES DU PANEL")
@@ -288,6 +303,13 @@ WEIGHTS = {
 }
 
 df["score_composite"] = sum(df[col] * w for col, w in WEIGHTS.items())
+if df["score_composite"].isna().any():
+    pays_pb = df.loc[df["score_composite"].isna(), "Pays"].tolist()
+    raise RuntimeError(
+        "score_composite contient des NaN pour : " + ", ".join(pays_pb) +
+        " -> impossible d'etablir un classement. Verifiez les codes "
+        "indicateurs WB_INDICATORS et la disponibilite des donnees."
+    )
 df["rang"] = df["score_composite"].rank(ascending=False, method="min").astype(int)
 df = df.sort_values("score_composite", ascending=False).reset_index(drop=True)
 
